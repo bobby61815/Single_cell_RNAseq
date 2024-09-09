@@ -1,5 +1,5 @@
 # Introduction
-In the past decade,
+In the past decade, In order to understand the 
 
 # Methodology
 I first downloaded the raw 3K PBMC scRNAseq data from [2] and used the scvi-tools to separate doublet and singlet [3]. Then, I used UMAP to cluster cells into different groups. Based on the gene expression pattern on those groups, I can separate 3K PBMC sample into several groups, including NK cell, CD4+ T cell and CD8+ T cell. 
