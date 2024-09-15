@@ -1,5 +1,5 @@
 # Introduction
-In the past decade, single-cell RNAseq technology transformed our understanding of health and disease [1]. It provides a higher resolution of cellular differences and a better understanding of each individual cell in our body or diseases. In order to better understand the analysis procedure and the power of single-cell RNAseq, I read the protocol and followed the procedure to analyze single-cell RNAseq raw data [2]. 
+In the past decade, single-cell RNAseq technology has transformed our understanding of health and disease [1]. It provides a higher resolution of cellular differences and a better understanding of each individual cell in our body or their responses to certain diseases. In order to better understand the analysis procedure and the power of single-cell RNAseq, I read the protocol and followed the procedure to analyze single-cell RNAseq data on Peripheral Blood Mononuclear Cells (PBMC) samples [2]. PBMC is a mixture of
 
 # Procedure. 
 I first downloaded the raw 3K PBMC scRNAseq data from [2]. Then I used scvi-tools to predict and separate doublet and singlet [3]. 
